@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <title><%= title %> - xiaominge</title>
+    <link rel='stylesheet' href='/build/aaa.css' />
+
+</head>
+<body>
+<% if (success) { %>
+<div class="alert alert-success">
+    <%= success %>
+</div>
+<% } %>
+<% if (error) { %>
+<div class="alert alert-error">
+    <%= error %>
+</div>
+<% } %>
+<div>test by 小敏哥2016</div>
+
+<div id="container" class="container">
+
+    <%- body %>
+    <hr />
+    <footer>
+        <p id="footerid"> test by 小敏哥2016</p>
+    </footer>
+</div>
+</body>
+<!--<script src="/javascripts/jquery.min.js"></script>-->
+<script src="/build/vendor.bundle.js"></script>
+<script src="/build/index.bundle.js"></script>
+
+</html>
