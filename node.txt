@@ -17,3 +17,5 @@ tar -xvzf node-v4.4.3-linux-x64.tar.gz
 linux下全局安装需要做软连接
 
 ln -s /home/nodejs/node-v4.4.3-linux-x64/bin/doxmate /usr/local/bin/doxmate
+
+vi /etc/sysconfig/iptables配置linux端口
