@@ -6,6 +6,6 @@ var testExport=require('javascripts/test2.js');
 /*var a=require('javascripte/test2.js');*/
 require('stylesheets/test.less');
 $(function(){
-    alert('2ffsfdfdsff11111sdfdsf');
-    testExport.testfn();
+    /*alert('2ffsfdfdsff11111sdfdsf');
+    testExport.testfn();*/
 });

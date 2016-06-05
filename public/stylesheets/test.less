@@ -1,5 +1,46 @@
+html{
+  height: 100%;
+}
+
 body{
-  color:blue;
+  color:black;
+  font-family: 微软雅黑;
+  heigth:100%;
+}
+
+.head{
+  .size(60%,96px);
+  margin-left: 20%;
+  margin-right: 20%;
+  position:relative;
+}
+
+.code{
+  position:absolute;
+  .size(166px);
+  top:0;
+  right:0;
+}
+
+.logo{
+  margin-top: 30px;
+}
+
+.mainTitle{
+  .size(100%,70px);
+  background-color:#fd5100;
+}
+
+.footImage{
+  display: inline-block;
+  text-align: center;
+  width:100%;
+}
+
+
+.size(@width,@height:auto){
+  width:@width;
+  height:@height;
 }
 
 

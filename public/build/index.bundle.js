@@ -52,8 +52,8 @@
 	/*var a=require('javascripte/test2.js');*/
 	__webpack_require__(3);
 	$(function(){
-	    alert('2ffsfdfdsff11111sdfdsf');
-	    testExport.testfn();
+	    /*alert('2ffsfdfdsff11111sdfdsf');
+	    testExport.testfn();*/
 	});
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
