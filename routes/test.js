@@ -9,7 +9,7 @@ var User = require('../models/test.js')
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-    res.render('index', { title: 'Express' ,layout:'layoutfortest'});
+    res.render('index', { title: 'Expresss',items:['express', 'Node.js'] ,layout:'layoutfortest'});
 });
 
 router.get('/test', function(req, res, next) {
